@@ -29,7 +29,13 @@ public class DemoApplication {
 						1994,
 						Month.MAY,
 						20
-				)));
+				)), new Student(
+						2L,
+				"Paprika",
+				21,
+				"21canyoudosomething@forme.com",
+				LocalDate.of(2012,Month.DECEMBER,5)
+		));
 	}
 
 }
