@@ -18,6 +18,10 @@ public class StudentService {
         this.studentRepository = studentRepository;
     }
 
+    public void addNewStudent(Student student) {
+        System.out.println(student);
+    }
+
     public List<Student> getStudents() {
         return studentRepository.findAll();
     }
