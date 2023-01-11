@@ -22,7 +22,6 @@ public class StudentController {
 
     @GetMapping
     public List<Student> getStudents() {
-
-        return StudentService.getStudents();
+        return studentService.getStudents();
     }
 }
